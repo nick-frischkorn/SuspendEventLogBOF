@@ -1,4 +1,4 @@
-# SuspendEventLogBOF
+## SuspendEventLogBOF
 
 Beacon Object File to locate and suspend the threads hosting the Event Log service. Utilizes syscalls via [InlineWhispers](https://github.com/outflanknl/InlineWhispers).
 
