@@ -19,6 +19,7 @@ beacon> inline-execute c:\path-to-bof\SuspendEventLog.o
 ```
 ### To Do
 Upgrade to dynamically resolving syscall numbers and jumping to syscall instructions within ntdll.dll
+Clean up the header files and delete the unused structs
 
 ### Example
 ![after](images/after.png)
