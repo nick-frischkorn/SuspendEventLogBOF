@@ -2,6 +2,8 @@
 
 Beacon Object File to locate and suspend the threads hosting the Event Log service. Utilizes syscalls via [InlineWhispers](https://github.com/outflanknl/InlineWhispers).
 
+Code adapted from [ired.team](https://www.ired.team/offensive-security/defense-evasion/disabling-windows-event-logs-by-suspending-eventlog-service-threads)
+
 **Note:** Admin privileges are required to run this BOF!
 
 ### How To Compile
