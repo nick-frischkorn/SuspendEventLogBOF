@@ -17,7 +17,7 @@ $ x86_64-w64-mingw32-strip --strip-unneeded SuspendEventLog.o
 ```
 ### Usage
 ```
-beacon> inline-execute c:\path-to-bof\SuspendEventLog.o
+beacon> inline-execute /path-to-bof/SuspendEventLog.o
 ```
 ### To Do
 Upgrade to dynamically resolving syscall numbers and jumping to syscall instructions within ntdll.dll
