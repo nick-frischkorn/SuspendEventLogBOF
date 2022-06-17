@@ -122,8 +122,8 @@ MODULEINFO getEventLogBaseAddress(HANDLE targetProc)
 
 	if (moduleFound == 1)
 	{
-		BeaconPrintf(CALLBACK_OUTPUT, "[+] Found the EventLog Module (wevtsvc.dll) at %p", serviceModule);
 		KERNEL32$K32GetModuleInformation(targetProc, serviceModule, &serviceModuleInfo, sizeof(MODULEINFO));
+		BeaconPrintf(CALLBACK_OUTPUT, "[+] Found the EventLog Module (wevtsvc.dll) at %p", serviceModule);
 	}
 	else
 	{
